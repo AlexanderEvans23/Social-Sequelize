@@ -1,7 +1,7 @@
 const { Comment, Like, Post, Profile, User } = require("./index");
 const { db } = require('./db/connection.js');
 
-describe('Social Sequelzie Test', () => {
+describe('Social Sequelize Test', () => {
     /**
      * Runs the code prior to all tests
      */
@@ -13,7 +13,8 @@ describe('Social Sequelzie Test', () => {
 
     // Write your tests here
     
-    test("replace with your test", function() {
+    test("can create a user", async function() {
+        await.bulkCreate
         expect(true).toBe(true);
     })
 
